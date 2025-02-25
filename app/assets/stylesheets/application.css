@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin: 20px 0;
+  border: 1px solid rgb(235,235,235);
+  padding: 10px;
+ }
+ .flex a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black
+ };

@@ -1,6 +1,11 @@
 <div class = "container">
   <h1>Hello from show!</h1>
-  <p><%= @task.title %></p>
-  <p><%= @task.details %></p>
-  <p><%= @task.completed %></p>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @task.title %></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Task done: <%= @task.completed %></h6>
+    <p class="card-text">Task details: <%= @task.details %></p>
+  </div>
+</div>
 </div>
